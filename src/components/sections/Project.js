@@ -1,5 +1,5 @@
-import styles from "../styles/Projects.module.css";
-function Projects() {
+import styles from "../styles/Project.module.css";
+function Project() {
   return (
     <section id="projects" className={styles.projects}>
       <h1 style={heading}>My Projects</h1>
@@ -55,4 +55,4 @@ const h4 = {
   fontSize: "12px",
 };
 
-export default Projects;
+export default Project;
