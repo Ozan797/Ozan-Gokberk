@@ -2,8 +2,8 @@ import styles from '../styles/Header.module.css'
 
 function Header() {
   return (
-    <header>
-        <div className={styles.navbar}>
+    <header  className={styles.navbar}>
+        <div>
     <input id={styles.menuToggle} type="checkbox" />
     <label className={styles.menuBtn} for={styles.menuToggle}>
       <span></span>
