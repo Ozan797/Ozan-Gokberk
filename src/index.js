@@ -3,11 +3,15 @@ import ReactDOM from 'react-dom/client';
 import './components/styles/index.css';
 import reportWebVitals from './reportWebVitals';
 import Header from './components/sections/Header';
+import Home from './components/sections/Home';
+import About from './components/sections/About';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Header />
+    <Home />
+    <About />
   </React.StrictMode>
 );
 

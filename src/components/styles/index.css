@@ -11,7 +11,7 @@ html {
 
 body {
   background-color: var(--primary-color);
-  font-family: var(--secondary-font);
+  font-family: var(--primary-font);
 }
 
 :root {
@@ -20,11 +20,12 @@ body {
   --third-color: #FFC300;
   --fourth-color: #FFD60A;
 
-  --text-color-white: #fff;
-  --text-color-black: #000;
+  --color-white: #fff;
+  --color-black: #000;
+  --color-grey: #999;
 
   --primary-font: "Roboto Mono", sans-serif;
-  --secondary-font: "Poppins", sans-serif;
+  --secondary-font: "Montserrat", sans-serif;
 
   --fs-xsmall: 12px;
   --fs-small: 16px;
