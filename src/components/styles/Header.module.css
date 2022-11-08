@@ -1,0 +1,90 @@
+#menuToggle {
+    opacity: 0;
+  }
+  #menuToggle:checked + .menuBtn > span {
+    transform: rotate(45deg);
+  }
+  #menuToggle:checked + .menuBtn > span::before {
+    top: 0;
+    transform: rotate(0deg);
+  }
+  #menuToggle:checked + .menuBtn > span::after {
+    top: 0;
+    transform: rotate(90deg);
+  }
+  #menuToggle:checked ~ .menuBox {
+    right: 0 !important;
+  }
+  .menuBtn {
+    position: fixed;
+    top: 38px;
+    right: 20px;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    z-index: 1;
+  }
+  .menuBtn > span,
+  .menuBtn > span::before,
+  .menuBtn > span::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: var(--fourth-color);
+    transition-duration: .25s;
+  }
+  .menuBtn > span::before {
+    content: '';
+    top: -8px;
+  }
+  .menuBtn > span::after {
+    content: '';
+    top: 8px;
+  }
+  .menuBox {
+    display: block;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 300px;
+    height: 100%;
+    margin: 0;
+    padding: 80px 0;
+    list-style: none;
+    background-color: var(--secondary-color);
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, .4);
+    transition-duration: .25s;
+  }
+  .menuItem {
+    display: block;
+    padding: 12px 24px;
+    color: var(--fourth-color);
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    transition-duration: .25s;
+  }
+  .menuItem:hover {
+    background-color: var(--fourth-color);
+    color: var(--secondary-color);
+  }
+
+  .logo {
+    display: block;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    z-index: 1;
+    color: var(--fourth-color);
+  }
+
+.navbar {
+    background-color: var(--secondary-color);
+    height: 80px;
+    z-index: 2;
+}
