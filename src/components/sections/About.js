@@ -7,12 +7,14 @@ function About() {
         <p className={styles.title}>About</p>
         <div className={styles.card}>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam
-            ipsa, quae exercitationem, qui totam modi, repellendus molestias
-            accusantium  nnus reiciendis cupiditate soluta dolore
-            ut, repudiandae distinctio labore cumque minima tenetur? Natus
-            temporibus officia nulla a dignissimos perspiciatis repellat quae
-            illo, est 
+            I am currently in my 2nd year of Computer Science.
+            I am ambitious and hardworking. Learning is a passion of mine.
+            I am always looking for new opportunities to learn and grow.
+            I enjoy reading fictional and non fiction books. I also enjoy playing
+            Chess. I started learning how to code in 2019 and have been
+            learning ever since. I am currently learning backend development
+            using Node.js and Express.js. I am also learning how to use
+            MongoDB.
           </p>
           <p className={styles.languages}>Known Languages</p>
           <ul className={styles.skills}>
