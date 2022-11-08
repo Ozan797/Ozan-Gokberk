@@ -13,7 +13,7 @@
 }
 
 .title {
-    color: var(--third-color);
+    color: var(--fourth-color);
     font-size: var(--fs-xlarge);
     font-family: var(--secondary-font);
     font-weight: var(--fw-bold);
@@ -21,7 +21,7 @@
 }
 
 .card {
-    background-color: var(--third-color);
+    background-color: var(--fourth-color);
     max-width: 600px;
     padding: 30px;
     border-radius: 10px;
