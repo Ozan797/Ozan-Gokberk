@@ -1,0 +1,63 @@
+.smallProjects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    min-height: 50vh;
+    padding: 0 20px;
+}
+
+.cardContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-items: stretch;
+}
+
+.card {
+    width: 20vw;
+    margin: 20px;
+    transition: all 0.3s ease;
+    box-shadow: black  0px 0px 10px;
+    border: none;
+    background-color: var(--secondary-color);
+    color: var(--fourth-color);
+    justify-content: center;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.link {
+    text-decoration: none;
+    color: var(--color-white);
+    transition: all 0.3s ease;
+}
+
+.link:hover {
+    color: var(--fourth-colorolor);
+}
+
+@media screen and (max-width: 768px) {
+    .cardContainer {
+        flex-direction: column;
+    }
+    .card {
+        width: 80vw;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .card {
+        width: 40vw;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .card {
+        width: 20vw;
+    }
+}

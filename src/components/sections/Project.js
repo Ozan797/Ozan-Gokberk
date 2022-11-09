@@ -2,10 +2,10 @@ import styles from "../styles/Project.module.css";
 function Project() {
   return (
     <section id="projects" className={styles.projects}>
-      <h1 style={heading}>My Projects</h1>
 
       {/* Featured Project */}
       <div className={styles.projectsContainer}>
+      <h1 className={styles.heading}>My Projects</h1>
         <div className={styles.project}>
           <h4 style={h4}>Featured Project</h4>
           <h1 className={styles.title}>Portfolio</h1>
@@ -13,7 +13,8 @@ function Project() {
             <p>
               This is the my portfolio website. I used ReactJS for the frontend.
               By using ReactJS, I can easily create reusable components and
-              maintain the code. I used CSS modules for styling.
+              maintain the code. I used CSS modules and JavaScript Objects to style
+              the components. I also used Bootstrap Components to speed up development.
             </p>
           </div>
           <img
@@ -24,6 +25,7 @@ function Project() {
           <ul className={styles.skills}>
             <li>HTML & CSS</li>
             <li>ReactJS</li>
+            <li style={space}>Bootstrap</li>
           </ul>
 
           <ul className={styles.links}>
@@ -40,19 +42,12 @@ function Project() {
   );
 }
 
-const heading = {
-  color: "#FFD60A",
-  position: "absolute",
-  left: "33%",
-  paddingTop: "5rem",
-  fontFamily: "Montserrat",
-  fontWeight: "700",
-  fontSize: "2.5rem",
-};
 
 const h4 = {
-  color: "#FFF",
+  color: "#FFD60A",
   fontSize: "12px",
 };
-
+const space = {
+  marginLeft: "12px",
+}
 export default Project;
