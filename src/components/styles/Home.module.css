@@ -24,6 +24,7 @@
   font-size: var(--fs-xxlarge);
   padding: 10px 0;
   font-family: var(--secondary-font);
+  font-weight: var(--fw-bold);
 }
 
 @media screen and (max-width: 768px) {
