@@ -61,3 +61,12 @@
     width: 20vw;
   }
 }
+
+.unavailable {
+  text-decoration: none;
+  color: var(--color-grey);
+}
+
+.unavailable:hover {
+  color: var(--color-grey);
+}
