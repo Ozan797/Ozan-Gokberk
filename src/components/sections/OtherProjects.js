@@ -14,15 +14,17 @@ function OtherProjects() {
           <Card.Body>
             <Card.Title>London Underground Application</Card.Title>
             <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+              University project consisting of 4 team members. The project was
+              to create a Python application that would allow users to find the
+              quickest route between two stations on the London Underground
+              network. The application was created using the Dijkstra algorithm.
             </Card.Text>
           </Card.Body>
           <Card.Body>
-            <Card.Link href="#" className={styles.link}>
+            <Card.Link className={styles.unavailable}>
               Github
             </Card.Link>
-            <Card.Link href="#" className={styles.link}>
+            <Card.Link className={styles.unavailable}>
               Live Demo
             </Card.Link>
           </Card.Body>
@@ -36,15 +38,16 @@ function OtherProjects() {
           <Card.Body>
             <Card.Title>Paypal Clone</Card.Title>
             <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+              A project with a friend to create a clone of the Paypal website. I
+              was responsible for the frontend of the project using HTMl, CSS,
+              TypeScript and TailwindCSS.
             </Card.Text>
           </Card.Body>
           <Card.Body>
-            <Card.Link href="#" className={styles.link}>
+            <Card.Link className={styles.unavailable}>
               Github
             </Card.Link>
-            <Card.Link href="#" className={styles.link}>
+            <Card.Link className={styles.unavailable}>
               Live Demo
             </Card.Link>
           </Card.Body>
