@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono:wght@300;400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono:wght@300;400;500;700&display=swap");
 
 * {
   margin: 0;
@@ -16,10 +16,10 @@ body {
 }
 
 :root {
-  --primary-color: #001D3D;
+  --primary-color: #001d3d;
   --secondary-color: #003566;
-  --third-color: #FFC300;
-  --fourth-color: #FFD60A;
+  --third-color: #ffc300;
+  --fourth-color: #ffd60a;
 
   --color-white: #fff;
   --color-black: #000;

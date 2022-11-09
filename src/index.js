@@ -1,15 +1,16 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
-import './components/styles/index.css';
-import reportWebVitals from './reportWebVitals';
-import Header from './components/sections/Header';
-import Home from './components/sections/Home';
-import About from './components/sections/About';
-import Project from './components/sections/Project';
-import OtherProjects from './components/sections/OtherProjects';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import "./components/styles/index.css";
+import reportWebVitals from "./reportWebVitals";
+import Header from "./components/sections/Header";
+import Home from "./components/sections/Home";
+import About from "./components/sections/About";
+import Project from "./components/sections/Project";
+import OtherProjects from "./components/sections/OtherProjects";
+import Contact from "./components/sections/Contact";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <Header />
@@ -17,6 +18,7 @@ root.render(
     <About />
     <Project />
     <OtherProjects />
+    <Contact />
   </React.StrictMode>
 );
 

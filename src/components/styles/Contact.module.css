@@ -1,0 +1,63 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+  background-color: var(--fourth-color);
+}
+
+.contact h1 {
+  margin-bottom: 30px;
+  font-size: var(--fs-xlarge);
+  color: var(--secondary-color);
+}
+
+.contact p {
+  margin-bottom: 30px;
+  font-size: var(--fs-small);
+  color: var(--secondary-color);
+  max-width: 500px;
+  margin: 0 10px;
+}
+
+.button {
+  font-size: var(--fs-medium);
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 13px 20px 13px;
+  outline: 0;
+  border: 1px solid var(--secondary-color);
+  color: var(--fourth-color);
+  font-weight: var(--fw-medium);
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin: 20px 0;
+  z-index: 88;
+}
+
+.button:after {
+  content: "";
+  background-color: var(--secondary-color);
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+
+.button:hover:after {
+  top: 0px;
+  left: 0px;
+}
+
+.button a {
+  text-decoration: none;
+  color: var(--fourth-color);
+}

@@ -1,59 +1,59 @@
 .about {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0 1rem;
-    min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1rem;
+  min-height: 100vh;
 }
 
 .aboutContainer {
-    text-align: center;
-    min-height: inherit;
+  text-align: center;
+  min-height: inherit;
 }
 
 .title {
-    color: var(--fourth-color);
-    font-size: var(--fs-xlarge);
-    font-family: var(--secondary-font);
-    font-weight: var(--fw-bold);
-    margin-bottom: 10px;
+  color: var(--fourth-color);
+  font-size: var(--fs-xlarge);
+  font-family: var(--secondary-font);
+  font-weight: var(--fw-bold);
+  margin-bottom: 10px;
 }
 
 .card {
-    background-color: var(--fourth-color);
-    max-width: 600px;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 12px 12px 2px 1px #ffffff33;
-    cursor: default;
+  background-color: var(--fourth-color);
+  max-width: 600px;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 12px 12px 2px 1px #ffffff33;
+  cursor: default;
 }
 .skills {
-    display: flex;
-    flex-wrap: wrap;
-    color: var(--secondary-color);
-    justify-content: center;
-    font-weight: 700;
+  display: flex;
+  flex-wrap: wrap;
+  color: var(--secondary-color);
+  justify-content: center;
+  font-weight: 700;
 }
 
 .languages {
-    display: flex;
-    justify-content: center;
-    padding-top: 30px;
-    color: var(--secondary-color);
-    font-weight: 700;
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  color: var(--secondary-color);
+  font-weight: 700;
 }
 
 .skills li {
-    list-style: none;
-    margin: 10px;
-    font-weight: 700;
-    color: var(--secondary-color);
+  list-style: none;
+  margin: 10px;
+  font-weight: 700;
+  color: var(--secondary-color);
 }
 
 @media screen and (max-width: 768px) {
-    .container {
-        margin: 0 25px;
-        margin-bottom: 200px;
-    }
+  .container {
+    margin: 0 25px;
+    margin-bottom: 200px;
+  }
 }
