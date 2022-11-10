@@ -1,13 +1,19 @@
 import styles from "../styles/Home.module.css";
+import Typewriter from "typewriter-effect";
 
 function Home() {
   return (
     <section className={styles.home} id="home">
       <div className={styles.home__container}>
         <h3 className={styles.intro}>Hi, my name is</h3>
-        <h1 style={highlight} className={styles.name}>
-          Ozan Gokberk
-        </h1>
+        <div className={styles.name} style={highlight}>
+          {/* https://www.geeksforgeeks.org/how-to-create-typewriter-effect-in-reactjs/ */}
+          <Typewriter
+            onInit={(typewriter) => {
+              typewriter.pauseFor(1000).typeString("Ozan Gokberk").start();
+            }}
+          />
+        </div>
         <p className={styles.intro}>
           I'm a Computer Science student passionate about
           <span style={highlight}>

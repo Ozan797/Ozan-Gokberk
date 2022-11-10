@@ -25,6 +25,7 @@
   background-color: var(--secondary-color);
   color: var(--fourth-color);
   justify-content: center;
+  padding: 5px;
 }
 
 .card:hover {
@@ -58,7 +59,13 @@
 
 @media screen and (min-width: 1025px) {
   .card {
-    width: 20vw;
+    width: 40vw;
+  }
+}
+
+@media screen and (min-width: 1281px) {
+  .card {
+    width: 30vw;
   }
 }
 

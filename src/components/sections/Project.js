@@ -30,7 +30,7 @@ function Project() {
 
           <ul className={styles.links}>
             <li>
-              <a href="#github">Github</a>
+              <a href="https://github.com/Ozan797/Ozan-Gokberk" target="blank_">Github</a>
             </li>
             <li>
               <a href="#home">Live Demo</a>
