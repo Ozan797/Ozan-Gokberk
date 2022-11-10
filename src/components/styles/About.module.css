@@ -4,7 +4,7 @@
   justify-content: center;
   align-items: center;
   padding: 0 1rem;
-  min-height: 100vh;
+  min-height: 70vh;
 }
 
 .aboutContainer {
@@ -52,8 +52,7 @@
 }
 
 @media screen and (max-width: 768px) {
-  .container {
-    margin: 0 25px;
-    margin-bottom: 200px;
+  .card {
+    font-size: var(--fs-small);
   }
 }
