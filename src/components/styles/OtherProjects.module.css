@@ -35,11 +35,11 @@
 .link {
   text-decoration: none;
   color: var(--color-white);
-  transition: all 0.3s ease;
+  transition: all 0.5s ease;
 }
 
 .link:hover {
-  color: var(--fourth-colorolor);
+  color: var(--fourth-color);
 }
 
 @media screen and (max-width: 768px) {

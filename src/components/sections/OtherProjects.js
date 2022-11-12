@@ -33,21 +33,20 @@ function OtherProjects() {
         <Card className={styles.card}>
           <Card.Img
             variant="top"
-            src="https://images.ctfassets.net/8y4on51kf6pi/paypal-logo-image/3db163090e0f348a35b8c1d0fa6164f7/paypal.svg?fm=png&w=1200&h=630&fit=pad&q=100&bg=rgb:003087"
+            src="https://parentzone.org.uk/sites/default/files/styles/parent_zone_hero/public/2022-03/Discord_Card.png?itok=_K-Vcc1H"
           />
           <Card.Body>
-            <Card.Title>Paypal Clone</Card.Title>
+            <Card.Title>Discord Clone</Card.Title>
             <Card.Text>
-              A project with a friend to create a clone of the Paypal website. I
-              was responsible for the frontend of the project using HTMl, CSS,
-              TypeScript and TailwindCSS.
+              A project with a friend to create a clone of the Discord welcome page. I
+              was responsible for the navbar, footer and the main content of the page.
             </Card.Text>
           </Card.Body>
           <Card.Body>
-            <Card.Link className={styles.unavailable}>
+            <Card.Link className={styles.link} href="https://github.com/Ozan797/Discord-Clone" target="blank_">
               Github
             </Card.Link>
-            <Card.Link className={styles.unavailable}>
+            <Card.Link className={styles.link} href="https://discord-clone-ao.netlify.app/" target="blank_">
               Live Demo
             </Card.Link>
           </Card.Body>
