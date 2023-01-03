@@ -21,7 +21,7 @@ function OtherProjects() {
             </Card.Text>
           </Card.Body>
           <Card.Body>
-            <Card.Link className={styles.unavailable}>
+            <Card.Link className={styles.link} href="https://github.com/Ozan797/Algo-Yr2" target="blank_">
               Github
             </Card.Link>
             <Card.Link className={styles.unavailable}>
