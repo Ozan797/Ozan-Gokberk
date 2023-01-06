@@ -1,4 +1,5 @@
 import styles from "../styles/Project.module.css";
+import Website from "../images/Website Screenshot.png";
 function Project() {
   return (
     <section id="projects" className={styles.projects}>
@@ -19,7 +20,7 @@ function Project() {
           </div>
           <img
             className={styles.img}
-            src="http://blog.addthiscdn.com/wp-content/uploads/2014/11/addthis-react-flux-javascript-scaling.png"
+            src={Website}
             alt="Featured Project"
           />
           <ul className={styles.skills}>

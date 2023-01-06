@@ -1,10 +1,11 @@
 import styles from "../styles/Home.module.css";
 import Typewriter from "typewriter-effect";
 
+// Home section
 function Home() {
   return (
-    <section className={styles.home} id="home">
-      <div className={styles.home__container}>
+    <section className={styles.home} id="home"> 
+      <div className={styles.home__container}> 
         <h3 className={styles.intro}>Hi, my name is</h3>
         <div className={styles.name} style={highlight}>
           {/* https://www.geeksforgeeks.org/how-to-create-typewriter-effect-in-reactjs/ */}
@@ -19,9 +20,9 @@ function Home() {
           <span style={highlight}>
             {" "}
             <br /> Web Development
-          </span>{" "}
-          and
-          <span style={highlight}> Machine Learning</span>.
+          </span>
+          ,
+          <span style={highlight}> Machine Learning</span> +<span style={highlight}> AI</span>.
         </p>
       </div>
     </section>
