@@ -46,7 +46,7 @@
 }
 
 .projectDesc {
-  background-color: hsla(50, 100%, 52%, 0.7);
+  background-color: hsla(50, 100%, 52%, 0.725);
   color: var(--secondary-color);
   max-width: 500px;
   padding: 10px;
@@ -86,11 +86,11 @@
 }
 
 .img {
-  width: 400px;
+  width: 500px;
   position: inherit;
   right: 0;
   top: 10%;
-  left: 70%;
+  left: 60%;
   z-index: -1;
   box-shadow: #001d3d 0px 0px 10px;
 }

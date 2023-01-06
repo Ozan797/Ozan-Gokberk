@@ -4,7 +4,7 @@
   justify-content: center;
   align-items: center;
   padding: 0 1rem;
-  min-height: 70vh;
+  min-height: 80vh;
 }
 
 .aboutContainer {
@@ -54,5 +54,8 @@
 @media screen and (max-width: 768px) {
   .card {
     font-size: var(--fs-small);
+  }
+  .about {
+    min-height: 100vh;
   }
 }

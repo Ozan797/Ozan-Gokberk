@@ -1,5 +1,7 @@
 import styles from "../styles/OtherProjects.module.css";
 import Card from "react-bootstrap/Card";
+import DiscordImg from "../images/Discord.png";
+import TFLImg from "../images/TFL.jpg";
 
 function OtherProjects() {
   return (
@@ -9,7 +11,7 @@ function OtherProjects() {
         <Card className={styles.card}>
           <Card.Img
             variant="top"
-            src="https://www.mca.org.uk/wp-content/uploads/sites/60/2019/02/TFL-Image.jpg"
+            src={TFLImg}
           />
           <Card.Body>
             <Card.Title>London Underground Application</Card.Title>
@@ -33,7 +35,7 @@ function OtherProjects() {
         <Card className={styles.card}>
           <Card.Img
             variant="top"
-            src="https://parentzone.org.uk/sites/default/files/styles/parent_zone_hero/public/2022-03/Discord_Card.png?itok=_K-Vcc1H"
+            src={DiscordImg}
           />
           <Card.Body>
             <Card.Title>Discord Clone</Card.Title>
