@@ -61,3 +61,10 @@
   text-decoration: none;
   color: var(--fourth-color);
 }
+
+
+@media screen and (max-width: 768px) {
+  .contact p {
+    text-align: center;
+  }
+}
